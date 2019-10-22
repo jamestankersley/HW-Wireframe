@@ -11,6 +11,8 @@ Header {background: #ebebeb;
         height: 30px;
         vertical-align: center ;
         padding: 25px;
+        box-sizing: border-box;
+
     }
 nav {background: #ebebeb; 
     height: 30px;
@@ -26,13 +28,23 @@ section {float: left;
         background: #ebebeb;
         padding-bottom: 20px;
         padding-top: 50px;
-        width: 495px;}
-#header1 {text-align: center;}
-aside {width: 495px;
-        background: #ebebeb;
-    }
+        width: 495px;
+        clear: both;
+        margin-left: 50px;}
+#header1 {text-align: center;
+        box-sizing: border-box;}
 
-footer {background: #ebebeb;}
+aside {width: 495px;
+        height: 300px;
+        background: #ebebeb;
+        box-sizing: border-box;
+        float: left;
+        margin-left: 50px;
+        margin-right: 40px;
+        }
+
+footer {background: #ebebeb;
+        box-sizing: border-box;}
 .div1  {height: 100%; 
         width: 100%;
         background: #777;}
